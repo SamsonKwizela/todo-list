@@ -1,43 +1,77 @@
-
-
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+  background: #f4f4f4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/*App.js Style*/
-.App {
+.ToDoForm {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  background-color: #014a74;
-  height: inherit;
+}
+
+.ToDoForm h1 {
+  color: purple;
+}
+
+.todo_input {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.todo_btn {
+  padding: 10px 15px;
+  background: purple;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.todo_btn:hover {
+  background: #5e2a84;
+}
+
+.ToDo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 10px;
   width: 500px;
-  margin: auto;
-  color: rgb(9, 240, 40);
-  border-radius: 6px;
-  border: solid 2px ;
-  box-shadow:  #014a74;
-  box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.87);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
-/*input and btn*/
-.ToDoForm{
-  
-  
-}
-.todo_input{
 
+.ToDo p {
+  margin: 0;
+  font-size: 18px;
+  cursor: pointer;
 }
-.todo_btn{
-  background-color: #011724;
-  color: blanchedalmond;
 
+.completed {
+  text-decoration: line-through;
+  color: gray;
 }
-p{
-  color:aliceblue
+
+.ToDo svg {
+  margin-left: 15px;
+  cursor: pointer;
+  color: #888;
+  transition: color 0.3s;
+}
+
+.ToDo svg:hover {
+  color: purple;
 }

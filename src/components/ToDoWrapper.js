@@ -6,6 +6,7 @@ import EditTodoForm from "./EditTodoForm";
 uuidv4();
 const ToDoWrapper = () => {
   const [todos, setToDos] = useState([]);
+ 
   const addToDo = (todo) => {
     setToDos([
       ...todos,
@@ -13,6 +14,7 @@ const ToDoWrapper = () => {
     ]);
     console.log(todos);
   };
+  
   const toggleComplete = (id) =>
     setToDos(
       todos.map((todo) =>
