@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SamsonKwizela/todo-list/static/css/main.00875ee8.css",
+    "main.js": "/SamsonKwizela/todo-list/static/js/main.9ce72fc5.js",
+    "static/js/453.81f383cb.chunk.js": "/SamsonKwizela/todo-list/static/js/453.81f383cb.chunk.js",
+    "index.html": "/SamsonKwizela/todo-list/index.html",
+    "main.00875ee8.css.map": "/SamsonKwizela/todo-list/static/css/main.00875ee8.css.map",
+    "main.9ce72fc5.js.map": "/SamsonKwizela/todo-list/static/js/main.9ce72fc5.js.map",
+    "453.81f383cb.chunk.js.map": "/SamsonKwizela/todo-list/static/js/453.81f383cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00875ee8.css",
+    "static/js/main.9ce72fc5.js"
+  ]
+}
